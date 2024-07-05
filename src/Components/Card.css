@@ -1,0 +1,19 @@
+.popup {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 35px;
+    z-index: 10;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: all 400ms;
+}
+
+.openPopup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
